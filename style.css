@@ -2,7 +2,7 @@
 
 * {
     margin: 0px;
-    padding: 0px;
+    padding: auto 240px;
     font-family: Work Sans;
 }
 
@@ -97,7 +97,7 @@ li {
 }
 
 .banner-desc {
-    color:  #727272;
+    color: #727272;
     text-align: center;
     font-family: Work Sans;
     font-size: 16px;
@@ -172,23 +172,83 @@ img {
 /* end od feature section */
 
 /* start of extra features */
-.ftr-container{
+
+.ftr-container {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
 }
-.ftr-box{
+
+.ftr-content-head {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+
+.ftr-desc {
     width: 586px;
-height: 171px;
-border-radius: 8px;
-background: #FFF;
-box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
-align-items: center;
+    color:#727272;
+    font-size: 16px;
+    font-weight: 400;
 }
+
+.ftr-box {
+    margin-top: 30px;
+    width: 586px;
+    height: 171px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.3);
+
+}
+
+.frt-head {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ftr-para {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.experience {
+    border-radius: 8px;
+    background: #FF900E;
+    width: 342px;
+    height: 200px;
+    /* padding: 20px 40px; */
+    margin-top: -155px;
+    margin-left: -100px;
+    position: absolute;
+}
+.exp-text{
+    padding: 45px 42px ;
+    text-align: center;
+    align-items: center;
+    color: #FFF;
+font-size: 55px;
+font-weight: 700;
+}
+.exp{
+    font-size: 25px;
+}
+
 /* start of facts section */
 .facts {
     /* padding-left: 240px; */
-    margin-top: 50px;
+    margin-top: 100px;
+    text-align: center;
 }
 
 .facts-headings {
@@ -287,51 +347,55 @@ align-items: center;
 /* for mobile */
 
 @media screen and (max-width:576px) {
-    .navigation{
+    .navigation {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .banner{
+
+    .banner {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .banner-pic{
+
+    .banner-pic {
         width: 100%;
     }
-    .navbar{
+
+    .navbar {
         padding-top: 20px;
     }
 
 
 
 
-    .facts-headings{
+    .facts-headings {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
-    .cards-container{
+
+    .cards-container {
         display: flex;
         flex-direction: column;
     }
+    .achievement{
+        margin-top: 10px;
+    }
 
 
-        .icons-container {
-            width: 165px;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            text-align: center;
-        }
-    
-        .sponsors {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-    } 
+    .icons-container {
+        width: 165px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
 
-
-  
+    .sponsors {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
