@@ -346,7 +346,7 @@ font-weight: 700;
 
 /* for mobile */
 
-@media screen and (max-width:576px) {
+@media screen and (min-width:992px) and (max-width:1200px) {
     .navigation {
         display: flex;
         flex-direction: column;
