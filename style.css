@@ -361,6 +361,7 @@ font-weight: 700;
 
     .banner-pic {
         width: 100%;
+        height: auto;
     }
 
     .navbar {
