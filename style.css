@@ -286,7 +286,7 @@ align-items: center;
 
 /* for mobile */
 
-@media screen and (max-width:1090px) {
+@media screen and (max-width:576px) {
     .navigation{
         display: flex;
         flex-direction: column;
